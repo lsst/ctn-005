@@ -1,0 +1,23 @@
+[technote]
+id = "CTN-005"
+series_id = "CTN"
+canonical_url = "https://ctn-005.lsst.io"
+github_url = "https://github.com/lsst/ctn-005"
+github_default_branch = "main"
+date_created = 2025-07-30T16:49:45Z
+organization.name = "NSF-DOE Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+
+[technote.status]
+state = "draft"
+
+[[technote.authors]]
+name.given = "Anthony S."
+name.family = "Johnson"
+internal_id = "johnsonas"
+orcid = "https://orcid.org/0000-0002-5729-2716"
+[[technote.authors.affiliations]]
+name = "SLAC National Accelerator Laboratory"
+internal_id = "SLAC"
+address = "Menlo Park"
