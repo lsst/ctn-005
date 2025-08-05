@@ -1,0 +1,82 @@
+{
+  "fileName" : "MC_O_20250603_000104_shutterMotionProfileOpen.json",
+  "fileType" : "shutterMotionProfile",
+  "obsId" : "MC_O_20250603_000104",
+  "version" : 1.0,
+  "motionProfile" : {
+    "startTime" : {
+      "tai" : "2025-06-04T04:34:49.622",
+      "mjd" : 60830.190852100495
+    },
+    "startPosition" : -0.04982454087312493,
+    "targetPosition" : 750.76,
+    "endPosition" : 751.478014768,
+    "targetDuration" : 900,
+    "actionDuration" : 1009,
+    "side" : "MINUSX",
+    "isOpen" : true,
+    "encodeSamples" : [ {
+      "time" : {
+        "tai" : "2025-06-04T04:34:49.685",
+        "mjd" : 60830.190852835774
+      },
+      "position" : 1.3804746111211152
+    }, {
+      "time" : {
+        "tai" : "2025-06-04T04:34:49.716",
+        "mjd" : 60830.190853188746
+      },
+      "position" : 4.479532949104306
+    }, {
+      "time" : {
+        "tai" : "2025-06-04T04:34:49.734",
+        "mjd" : 60830.19085340295
+      },
+      "position" : 7.795028114670976
+    } ],
+    "hallTransitions" : [ {
+      "time" : {
+        "tai" : "2025-06-04T04:34:49.685",
+        "mjd" : 60830.190852833446
+      },
+      "position" : 1.5496924696847336,
+      "sensorId" : 3,
+      "isOn" : true
+    }, {
+      "time" : {
+        "tai" : "2025-06-04T04:34:49.715",
+        "mjd" : 60830.19085318735
+      },
+      "position" : 4.334842463490579,
+      "sensorId" : 2,
+      "isOn" : false
+    }, {
+      "time" : {
+        "tai" : "2025-06-04T04:34:49.734",
+        "mjd" : 60830.190853399225
+      },
+      "position" : 7.6250811804,
+      "sensorId" : 3,
+      "isOn" : false
+    } ],
+    "fitResults" : {
+      "Model" : "ThreeJerksModelv1",
+      "hallSensorFit" : {
+        "ModelStartTime" : -0.30787086189118956,
+        "PivotPoint1" : 0.715728522962684,
+        "PivotPoint2" : 0.7276974082294309,
+        "Jerk0" : 3149.6282341651336,
+        "Jerk1" : 406856.53191779216,
+        "Jerk2" : -36818.075110723454
+      },
+      "motorEncoderFit" : {
+        "ModelStartTime" : -0.3085662579551603,
+        "PivotPoint1" : 0.7124202518598863,
+        "PivotPoint2" : 0.7242879532337521,
+        "Jerk0" : 3111.9506064113784,
+        "Jerk1" : 421036.09928319475,
+        "Jerk2" : -36688.921589064106
+      }
+    }
+  }
+}
